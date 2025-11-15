@@ -1,0 +1,19 @@
+{
+  "name": "sales",
+  "version": "1.0.0",
+  "description": "Custom PWA empaquetada con Capacitor",
+  "main": "index.js",
+  "scripts": {
+    "ionic:build": "mkdir -p www && cp -r ./* www/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Eduardo",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@capacitor/android": "^7.4.4",
+    "@capacitor/cli": "^7.4.4",
+    "@capacitor/core": "^7.4.4"
+  }
+}
