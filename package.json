@@ -4,7 +4,7 @@
   "description": "Custom PWA empaquetada con Capacitor",
   "main": "index.js",
   "scripts": {
-    "ionic:build": "mkdir -p www && cp -r src/* www/",
+    "ionic:build": "echo 'Build step: www/ ya contiene la PWA'",
     "cap:copy": "npx cap copy",
     "cap:sync": "npx cap sync",
     "cap:open": "npx cap open android",

@@ -2,7 +2,7 @@ import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
   appId: 'com.salesapp.app',
-  appName: 'sales',
+  appName: 'Sales',
   webDir: 'www'
 };
 
